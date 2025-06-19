@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="chamada_robotica" type="classroom.py" name="classroom_node" output="screen" />
+</launch>
