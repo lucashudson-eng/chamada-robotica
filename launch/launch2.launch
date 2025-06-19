@@ -1,3 +1,6 @@
 <launch>
-    <node pkg="chamada_robotica" type="classroom.py" name="classroom_node" output="screen" />
+    <node pkg="chamada_robotica" type="node_classroom.py" name="node_classroom" output="screen">
+        <param name="nome_curso" value="Turma Teste" />
+        <param name="nome_topico" value="Frequência" />
+    </node>
 </launch>
